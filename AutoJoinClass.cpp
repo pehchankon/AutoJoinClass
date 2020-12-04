@@ -15,7 +15,7 @@ bool Record = false;
 
 int main()
 {
-	bool start = 0;
+	/*bool start = 0;
 	cout << "Record?(0,1) :";
 	cin >> Record;
 	if (Record)
@@ -24,7 +24,7 @@ int main()
 		cin >> start;
 		if (start)
 			startOBS();
-	}
+	}*/
 	configure();
 	check();			
 	return 0;
@@ -37,7 +37,6 @@ string getCurTime()					//return current system time
 	string CurTime;
 	for(int i=11; i<16; i++)
 		CurTime.push_back(buffer.at(i));
-	cout << CurTime;
 	return CurTime;
 }
 
@@ -106,7 +105,7 @@ void startClass(string duration,string link)		//start zoom, join class, record
 
 void configure()			//waits until time is multiple of 10
 {
-	int unit = 7;		//to change multiple of time
+	int unit = 0;		//to change multiple of time
 	char temp = 0;
 	temp = getCurTime().at(4);
 	cout << "Configuring...";
