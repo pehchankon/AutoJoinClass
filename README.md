@@ -1,6 +1,6 @@
 # AutoJoinClass
 
-1. To add a class, edit timetable.csv and add details. There are some example classes. The duration is in minutes.
+1. To add a class, edit Assets/timetable.csv and add details. There are some example classes. The duration is in minutes.
 2. The program is optimized to check for classes whenever the time is XX:X0
 3. The above condition can be changed, in the fn configure() at line 108 the "int unit" can be changed
 4. You need to allow opening zoom through browser
