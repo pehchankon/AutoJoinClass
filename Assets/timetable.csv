@@ -1,6 +1,6 @@
 Day,Time,Link,Duration(min)
-Mon,10:30,https://www.google.com,50
-Tue,08:00,https://www.google.com,50
-Wed,10:30,https://www.google.com,50
+Mon,10:30,https://www.google.com,10
+Tue,08:00,https://www.google.com,20
+Wed,10:30,https://www.google.com,10
 Thu,08:00,https://www.google.com,50
-Fri,15:00,https://www.google.com,50
+Fri,15:00,https://www.google.com,100
