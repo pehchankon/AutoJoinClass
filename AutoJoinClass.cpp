@@ -15,7 +15,7 @@ bool Record = false;
 
 int main()
 {
-	/*bool start = 0;
+	bool start = 0;
 	cout << "Record?(0,1) :";
 	cin >> Record;
 	if (Record)
@@ -24,7 +24,7 @@ int main()
 		cin >> start;
 		if (start)
 			startOBS();
-	}*/
+	}
 	configure();
 	check();			
 	return 0;
