@@ -71,7 +71,7 @@ void check()				//read file, check for class, call startClass fn
 			startClass(duration, classlink);
 			return;
 		}
-		cout << day+time << endl;
+		//cout << day+time << endl;
 	}
 	TimeTable.close();
 	cout << "No Class at " << getCurStatus() << "." << endl;
